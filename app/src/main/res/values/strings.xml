@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">FootballClubApp</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="adres_email">Adres email</string>
+    <string name="has_o">Hasło</string>
+    <string name="zapomnia_e_has_o">Zapomniałeś hasło?</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="zarejestruj_si_w_aplikacji">Zarejestruj się w aplikacji</string>
+    <string name="masz_ju_konto_zaloguj_si">Masz już konto? Zaloguj się</string>
+    <string name="zarejestruj">Zarejestruj</string>
+    <string name="EmailJestWymagany">Email jest wymagany</string>
+    <string name="com">Adres email jest wymagany</string>
+    <string name="comm">Adres email jest wymagany</string>
+    <string name="comm2">Hasło jest wymagane</string>
+    <string name="comm3">Długość hasła musi być dłuższa niż 6 znaków</string>
+    <string name="comm4">Proszę czekać...</string>
+    <string name="comm5">Logowanie udane</string>
+    <string name="comm6">Logowanie nieudane</string>
 </resources>
