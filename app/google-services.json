@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012693202127",
+    "project_id": "footballclubapp-20f18",
+    "storage_bucket": "footballclubapp-20f18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012693202127:android:d1e08c429aac0d37a133ba",
+        "android_client_info": {
+          "package_name": "com.example.footballclubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012693202127-gicvioj96i5hblbvt6mmjohu7jbk2tm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ECReJw6ESNi0o-hGfkxsyCIisIiWBT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012693202127-gicvioj96i5hblbvt6mmjohu7jbk2tm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
