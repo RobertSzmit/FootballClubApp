@@ -27,20 +27,11 @@
 
     <EditText
         android:id="@+id/login_password"
-        android:inputType="textPassword"
-        android:hint="@string/has_o"
-        android:layout_below="@+id/login_email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:id="@+id/forgot_password"
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/login_password"
-        android:layout_alignParentRight="true"
-        android:text="@string/zapomnia_e_has_o"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_email"
+        android:hint="@string/has_o"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/login_btn"
@@ -50,7 +41,7 @@
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:text="@string/zaloguj"
-        android:layout_below="@+id/forgot_password"
+        android:layout_below="@+id/login_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

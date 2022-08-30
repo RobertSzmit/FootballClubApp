@@ -17,4 +17,7 @@
     <string name="comm4">Proszę czekać...</string>
     <string name="comm5">Logowanie udane</string>
     <string name="comm6">Logowanie nieudane</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="comm7">Wymagany adres email</string>
+    <string name="comm8">Hasło jest wymagane</string>
 </resources>
