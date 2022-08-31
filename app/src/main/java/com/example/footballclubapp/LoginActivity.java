@@ -36,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
         loginEmail = findViewById(R.id.login_email);
         loginPassword = findViewById(R.id.login_password);
         loginBtn = findViewById(R.id.login_btn);
-        forgotPassword = findViewById(R.id.forgot_password);
         needAnAccount = findViewById(R.id.need_an_account);
 
         progressDialog = new ProgressDialog(this);
