@@ -20,4 +20,11 @@
     <string name="wyloguj">Wyloguj</string>
     <string name="comm7">Wymagany adres email</string>
     <string name="comm8">Hasło jest wymagane</string>
+    <string name="aktualno_ci">AKTUALNOŚCI</string>
+    <string name="tabela">TABELA</string>
+    <string name="terminarz">TERMINARZ</string>
+    <string name="dru_yna">DRUŻYNA</string>
+    <string name="wyjazdy">WYJAZDY</string>
+    <string name="czat">CZAT</string>
+    <string name="logout">WYLOGUJ</string>
 </resources>
