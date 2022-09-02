@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth auth;
     private Button logout;
     Button news_btn;
+    Button trips_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         logout = findViewById(R.id.logout_btn);
         news_btn = findViewById(R.id.news_btn);
+        trips_btn = findViewById(R.id.trips_btn);
+
 
         logout.setOnClickListener(new View.OnClickListener() { // logout btn action
             @Override
@@ -36,10 +39,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        news_btn.setOnClickListener(new View.OnClickListener() {
+        news_btn.setOnClickListener(new View.OnClickListener() { // news activity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NewsMainActivity.class));
+            }
+        });
+
+        trips_btn.setOnClickListener(new View.OnClickListener() { // maps (trips) activity
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
             }
         });
 
