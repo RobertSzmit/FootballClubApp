@@ -1,6 +1,7 @@
 package com.example.footballclubapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -18,6 +19,8 @@ public class TableMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_table_main);
+
+        getWindow().setStatusBarColor(ContextCompat.getColor(TableMainActivity.this, R.color.dark_red));
 
         recView2 = findViewById(R.id.recView2);
         recView2.setLayoutManager(new LinearLayoutManager(this));

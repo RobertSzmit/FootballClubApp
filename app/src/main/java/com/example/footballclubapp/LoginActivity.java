@@ -2,6 +2,7 @@ package com.example.footballclubapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -40,6 +41,8 @@ public class LoginActivity extends AppCompatActivity {
 
         progressDialog = new ProgressDialog(this);
         auth = FirebaseAuth.getInstance();
+
+        getWindow().setStatusBarColor(ContextCompat.getColor(LoginActivity.this, R.color.grey));
 
         needAnAccount.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -2,7 +2,9 @@ package com.example.footballclubapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         terms_btn = findViewById(R.id.terms_btn);
         team_btn = findViewById(R.id.team_btn);
 
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.green));
 
         logout.setOnClickListener(new View.OnClickListener() { // logout btn action
             @Override

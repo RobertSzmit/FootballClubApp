@@ -1,6 +1,7 @@
 package com.example.footballclubapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,6 +22,8 @@ public class TermsMainActivity extends AppCompatActivity {
 
         recView3 = findViewById(R.id.recView3);
         recView3.setLayoutManager(new LinearLayoutManager(this));
+
+        getWindow().setStatusBarColor(ContextCompat.getColor(TermsMainActivity.this, R.color.green));
 
         FirebaseRecyclerOptions<TermsModel> options =
                 new FirebaseRecyclerOptions.Builder<TermsModel>()
