@@ -36,15 +36,15 @@
 
     <Button
         android:id="@+id/login_btn"
-        android:background="@color/red"
-        android:textColor="@color/teal_700"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:text="@string/zaloguj"
-        android:layout_below="@+id/login_password"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FF5252"
+        android:text="@string/zaloguj"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/need_an_account"

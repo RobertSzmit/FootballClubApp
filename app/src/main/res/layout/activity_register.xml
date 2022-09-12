@@ -41,9 +41,9 @@
         android:layout_below="@+id/register_password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="@color/red"
+        android:background="#FF5252"
         android:text="@string/zarejestruj"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <TextView

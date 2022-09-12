@@ -28,4 +28,8 @@
     <string name="czat">CZAT</string>
     <string name="logout">WYLOGUJ</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="imi">Imię</string>
+    <string name="wiadomo">Wiadomość</string>
+    <string name="wy_lij">WYśLIJ</string>
+    <string name="welcome">Witamy na czacie LKS Żuławy!</string>
 </resources>

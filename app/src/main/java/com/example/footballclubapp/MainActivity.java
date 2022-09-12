@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth auth;
     private Button logout;
-    Button news_btn, table_btn, trips_btn, terms_btn, team_btn;
+    Button news_btn, table_btn, trips_btn, terms_btn, team_btn, chat_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         trips_btn = findViewById(R.id.trips_btn);
         terms_btn = findViewById(R.id.terms_btn);
         team_btn = findViewById(R.id.team_btn);
+        chat_btn = findViewById(R.id.chat_btn);
 
         getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.green));
 
@@ -76,6 +77,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, MapsActivity.class));
+            }
+        });
+
+        chat_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MainActivityChat.class));
             }
         });
 
