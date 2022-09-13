@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         team_btn = findViewById(R.id.team_btn);
         chat_btn = findViewById(R.id.chat_btn);
 
-        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.green));
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.green)); // status bar
 
         logout.setOnClickListener(new View.OnClickListener() { // logout btn action
             @Override

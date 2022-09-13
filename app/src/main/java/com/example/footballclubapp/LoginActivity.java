@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else if (TextUtils.isEmpty(password)) {
                     loginPassword.setError(getString(R.string.comm8));
                 } else {
-                    Login (email, password);
+                    Login(email, password);
                 }
             }
         });
@@ -92,7 +92,7 @@ public class LoginActivity extends AppCompatActivity {
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(LoginActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
                         progressDialog.dismiss();
                     }
                 });
@@ -108,5 +108,4 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
         }
     }
-
 }
