@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -35,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         team_btn = findViewById(R.id.team_btn);
         chat_btn = findViewById(R.id.chat_btn);
 
-        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.green)); // status bar
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, // status bar
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         logout.setOnClickListener(new View.OnClickListener() { // logout btn action
             @Override

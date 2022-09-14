@@ -3,6 +3,7 @@ package com.example.footballclubapp;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -28,6 +29,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, // status bar
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 
     @Override
