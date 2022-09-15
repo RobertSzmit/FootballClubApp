@@ -46,6 +46,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
             android:text="News"
+            android:justificationMode="inter_word"
             android:textColor="#757575"
             android:textSize="15sp" />
 
