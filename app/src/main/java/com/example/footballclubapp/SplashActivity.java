@@ -11,6 +11,8 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 
+import com.example.footballclubapp.login_register.LoginActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     private static int SPLASH_SCREEN_TIMEOUT = 2000;

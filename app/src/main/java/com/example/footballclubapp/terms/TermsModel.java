@@ -1,4 +1,4 @@
-package com.example.footballclubapp;
+package com.example.footballclubapp.terms;
 
 public class TermsModel {
 

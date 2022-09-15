@@ -28,13 +28,13 @@
             android:name=".MainActivityChat"
             android:exported="false" />
         <activity
-            android:name=".TeamMainActivity"
+            android:name=".team.TeamMainActivity"
             android:exported="false" />
         <activity
-            android:name=".TermsMainActivity"
+            android:name=".terms.TermsMainActivity"
             android:exported="false" />
         <activity
-            android:name=".TableMainActivity"
+            android:name=".table.TableMainActivity"
             android:exported="false" />
 
         <meta-data
@@ -46,16 +46,16 @@
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".NewsMainActivity"
+            android:name=".news.NewsMainActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".login_register.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".login_register.LoginActivity"
             android:exported="false">
 
         </activity>

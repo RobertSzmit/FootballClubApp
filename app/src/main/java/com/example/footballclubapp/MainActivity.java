@@ -1,20 +1,19 @@
 package com.example.footballclubapp;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
+import com.example.footballclubapp.login_register.LoginActivity;
+import com.example.footballclubapp.news.NewsMainActivity;
+import com.example.footballclubapp.table.TableMainActivity;
+import com.example.footballclubapp.team.TeamMainActivity;
+import com.example.footballclubapp.terms.TermsMainActivity;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
